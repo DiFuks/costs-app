@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-fuks",
+  "rules": {
+    "jsdoc/require-jsdoc": ["off"]
+  }
+}

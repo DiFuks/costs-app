@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-fuks/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-native",
+    "paths": {
+      "@app/*": ["src/*"],
+      "@root/*": ["*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
